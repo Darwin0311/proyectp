@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav index */
+header {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  background: #fdfffc;
+  border-bottom: 1.4px solid #03588c;
+  box-shadow: 0px 0px 15px #5c5c5c;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+  position: fixed;
+  left: 77%;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Informacion */
+.cuerp {
+  position: fixed;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 200px;
+  max-width: 1350px;
+}
+
+.info {
+  position: fixed;
+  left: 32%;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  left: 40px;
+}
+
+.contp {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 1px 2px 2px #41658a;
+  background: #79b473;
+  border: 6px solid transparent;
+  border-radius: 18px 0px 19px 0px;
+  position: relative;
+  top: 155px;
+  width: 50%;
+  left: 6%;
+  max-width: 600px;
+  padding: 6px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contp:hover {
+  transform: scale(1.1);
+  background-color: #2980b9;
+}
+
+.initl {
+  position: absolute;
+  top: 150px;
+  right: 10%;
+  width: 320px;
+}
+
+.cuerh {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cuerp p {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Nav componentes */
+.nav {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  background: #005f73;
+  border-bottom: 1.4px solid #0fa3b1;
+  box-shadow: 0px 0px 15px #5c5c5c;
+}
+
+.navlg {
+  width: 100px;
+  padding: 2px;
+  padding-left: 14px;
+}
+
+.navh,h2 {
+  font-size: 55px;
+  display: flex;
+  position: fixed;
+  left: 39%;
+  text-align: center;
+  text-shadow: 1px 4px #003554;
+  color: #fdfffc;
+}
+
+/* cuerpo Inventario */
+
+.qrp {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  background: #003554;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  max-width: 1350px;
+}
+
+.bnts{
+  display: flex;
+  position: fixed
+}
